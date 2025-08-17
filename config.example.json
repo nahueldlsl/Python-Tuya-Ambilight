@@ -1,0 +1,36 @@
+ {
+    "device_settings": {
+        "device_id": "TU_DEVICE_ID_AQUI",
+        "device_ip": "192.168.X.X",
+        "local_key": "TU_LOCAL_KEY_AQUI"
+    },  
+   "active_profile": "cinematic",
+    "profiles": {
+        "cinematic": {
+            "comment": "Modo suave y atmosférico, ideal para películas.",
+            "analysis_width": 100,
+            "analysis_height": 56,
+            "num_colors_to_find": 4,
+            "saturation_factor": 1.4,
+            "transition_steps": 8,
+            "transition_delay": 0.02,
+            "min_brightness_pc": 5,
+            "max_brightness_pc": 100,
+            "off_threshold": 20,
+            "brightness_jump_threshold": 150
+        },
+        "action": {
+            "comment": "Modo rápido y vibrante, ideal para gaming y acción.",
+            "analysis_width": 120,
+            "analysis_height": 67,
+            "num_colors_to_find": 5,
+            "saturation_factor": 1.8,
+            "transition_steps": 2,
+            "transition_delay": 0.0,
+            "min_brightness_pc": 10,
+            "max_brightness_pc": 100,
+            "off_threshold": 15,
+            "brightness_jump_threshold": 100
+        }
+    }
+}
